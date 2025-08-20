@@ -1,0 +1,35 @@
+{
+  "name": "roblox-api-server",
+  "version": "1.0.0",
+  "description": "Complete production-ready Node.js + Express API for Roblox-related data",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "roblox",
+    "api",
+    "express",
+    "nodejs",
+    "gaming"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-validator": "^7.0.1",
+    "node-cache": "^5.1.2",
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
